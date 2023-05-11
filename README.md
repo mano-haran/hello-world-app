@@ -58,12 +58,15 @@ sudo docker run -d -p 8080:8080 -p 8081:8081 manoharan150/hello-worldapp
 **Verification**
 
 curl http://localhost:8080/fib-sequence?num=10
+
 curl http://localhost:8080/hello-world?name=Mano
 
 **Metrics URL**
 
 Default Metrics endpoint 
+
 curl http://localhost:8081/metrics
 
 Metrics endpoint for prometheus format
+
 curl http://localhost:8081/metrics-prometheus
