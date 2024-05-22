@@ -7,6 +7,7 @@ on:
 jobs:
   display-vars:
     runs-on: ubuntu-latest
+    environment: SIT
     steps:
       - name: print vars
         run: echo "${{ vars.ENV_DESC }}"
