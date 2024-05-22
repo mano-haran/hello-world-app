@@ -20,6 +20,14 @@
         <mainClass>com.example.helloworld.HelloWorldApplication</mainClass>
     </properties>
 
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>manoharan150</name>
+     <url>https://maven.pkg.github.com/manoharan150/hello-world-app</url>
+   </repository>
+</distributionManagement>
+        
     <dependencyManagement>
         <dependencies>
             <dependency>
