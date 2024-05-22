@@ -11,4 +11,4 @@ jobs:
       - name: print vars
         run: echo "${{ toJson(vars) }}"
       - name: print env
-        run: echo "${{ env.ENV_DESC }}"
+        run: echo "$ENV_DESC"
