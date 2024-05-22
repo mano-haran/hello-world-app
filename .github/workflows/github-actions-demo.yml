@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print vars
-        run: echo "${{ env.ENV_DESC }}"
+        run: echo "${{ vars.ENV_DESC }}"
       - name: print env
         run: echo "$env_vars_json"
         env:
