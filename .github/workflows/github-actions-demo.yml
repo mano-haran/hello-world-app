@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print vars
-        run: "echo ${{ toJSON(vars) }}"
+        run: echo "${{ toJson(vars) }}"
       - name: print env
-        run: "echo ${{ toJSON(env) }}"
+        run: echo "${{ toJson(env) }}"
