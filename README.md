@@ -1,6 +1,6 @@
 # Hello World Application
 
-A simple hello world microservice created using DropWizard.
+A simple hello world microservice created using DropWizard framework.
 
 It has 2 endpoints.
 
